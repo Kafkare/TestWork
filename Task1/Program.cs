@@ -30,7 +30,7 @@ string[] initialArray = Console.ReadLine().Split(',');
 
 string[] newArray = FilterArrayByLength(initialArray, 3);
 
-Console.WriteLine("Новый массив");
+Console.WriteLine("Новый массив:");
 foreach (string str in newArray)
 {
     Console.Write(string.Join(", ", str + " "));
